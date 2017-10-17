@@ -1,0 +1,9 @@
+.panel-default:hover {
+    border-color: deepskyblue;
+    box-shadow: 0 8px 36px 0 black;
+}
+
+ul.pagination {
+    display:table;
+    margin:0 auto;
+}
