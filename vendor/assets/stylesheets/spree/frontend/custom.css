@@ -12,12 +12,15 @@ ul.pagination {
     border-radius: 4px;
 }
 
-.footer {
+.spree-footer {
     margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    background-color: #f5f5f5;
-    color: black;
+    padding: 20px 0 20px;
     border-top: 1px solid #ddd;
+    background-color: #f5f5f5;
+    box-shadow: inset 0 1px 6px 0 #d8d8d8;
+}
+
+.footer {
+    color: #9dc700;
     text-align: center;
 }
