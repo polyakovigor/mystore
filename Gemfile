@@ -55,4 +55,5 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 gem 'spree', '~> 3.4.0'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
+gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'

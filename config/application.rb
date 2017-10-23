@@ -8,7 +8,9 @@ Bundler.require(*Rails.groups)
 
 module Mystore
   class Application < Rails::Application
-    
+
+    config.i18n.available_locales = %i[en ru]
+
     config.to_prepare do
       # Load application's model / class decorators
       Dir.glob(File.join(File.dirname(__FILE__), "../app/**/*_decorator*.rb")) do |c|
