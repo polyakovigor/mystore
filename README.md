@@ -1,5 +1,5 @@
 # My Store
-[![Code Climate](https://codeclimate.com/github/polyakovigor/mystore/badges/gpa.svg)](https://codeclimate.com/github/polyakovigor/mystore)
+[![Maintainability](https://api.codeclimate.com/v1/badges/e7ea3acd808c964692c3/maintainability)](https://codeclimate.com/github/polyakovigor/mystore/maintainability)
 ### Simple Spree project
 
 EXTENSIONS LIST
