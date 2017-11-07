@@ -58,10 +58,12 @@ group :production do
   gem 'rails_12factor', '~> 0.0.3'
 end
 
+gem 'omniauth-twitter', github: 'arunagw/omniauth-twitter'
 gem 'spree', '~> 3.4.0'
 gem 'spree_auth_devise', '~> 3.3'
 gem 'spree_gateway', '~> 3.3'
 gem 'spree_i18n', github: 'spree-contrib/spree_i18n'
+gem 'spree_mail_settings', github: 'spree-contrib/spree_mail_settings'
 gem 'spree_multi_currency', github: 'spree-contrib/spree_multi_currency'
 gem 'spree_paypal_express', github: 'spree-contrib/better_spree_paypal_express'
 gem 'spree_social', github: 'spree-contrib/spree_social'

@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/arunagw/omniauth-twitter.git
+  revision: b82964cf8f6071e770a64ba19408c3f22701267f
+  specs:
+    omniauth-twitter (1.4.0)
+      omniauth-oauth (~> 1.1)
+      rack
+
+GIT
   remote: https://github.com/spree-contrib/better_spree_paypal_express.git
   revision: 80321ae1ec0ed396eb3d874db93f77ff4e5be4e5
   specs:
@@ -19,6 +27,14 @@ GIT
       routing-filter
       spree_core (>= 3.1.0, < 4.0)
       spree_extension
+
+GIT
+  remote: https://github.com/spree-contrib/spree_mail_settings.git
+  revision: be7a9a9fa866054a81270f15e8e5fb289e80a9d7
+  specs:
+    spree_mail_settings (3.3.0)
+      spree_auth_devise (>= 3.1.0, < 4.0)
+      spree_backend (>= 3.1.0, < 4.0)
 
 GIT
   remote: https://github.com/spree-contrib/spree_multi_currency.git
@@ -246,9 +262,6 @@ GEM
     omniauth-oauth2 (1.4.0)
       oauth2 (~> 1.0)
       omniauth (~> 1.2)
-    omniauth-twitter (1.4.0)
-      omniauth-oauth (~> 1.1)
-      rack
     orm_adapter (0.5.0)
     paperclip (5.1.0)
       activemodel (>= 4.2.0)
@@ -466,6 +479,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  omniauth-twitter!
   pg (~> 0.18)
   puma (~> 3.7)
   rails (~> 5.1.4)
@@ -476,6 +490,7 @@ DEPENDENCIES
   spree_auth_devise (~> 3.3)
   spree_gateway (~> 3.3)
   spree_i18n!
+  spree_mail_settings!
   spree_multi_currency!
   spree_paypal_express!
   spree_social!

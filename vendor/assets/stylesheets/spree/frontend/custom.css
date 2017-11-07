@@ -24,3 +24,9 @@ ul.pagination {
     color: #9dc700;
     text-align: center;
 }
+
+#search-bar input.btn.btn-success:hover {
+    background-color: white;
+    color: #5cb85c;
+    border: 1px solid #4cae4c;
+}
