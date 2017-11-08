@@ -30,3 +30,19 @@ ul.pagination {
     color: #5cb85c;
     border: 1px solid #4cae4c;
 }
+
+.icon-spree-twitter-circled:before {
+    color: #26b3f7;
+}
+
+.icon-spree-facebook-circled:before {
+    color: #3b5998;
+}
+
+.icon-spree-github-circled:before {
+    color: black;
+}
+
+div#social-signin-links {
+    text-align: center;
+}
